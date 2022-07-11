@@ -1,0 +1,20 @@
+{
+  "name": "remote-control",
+  "version": "0.0.1",
+  "description": "Server using robotjs to receive websockets and execute commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "geekfabio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "robotjs": "^0.6.0",
+    "ws": "^8.6.0"
+  }
+}
